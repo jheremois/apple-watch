@@ -1,0 +1,8 @@
+extends home
+block head_down
+    .head_down
+        img(src="images/404.svg", alt="").in_white
+        span
+            p Error 404
+            p= `(page "${url}" not found)`
+block app

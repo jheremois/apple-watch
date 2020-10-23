@@ -1,0 +1,12 @@
+extends home
+block head_down
+block app
+block contact
+    form(action="/mail", method="post")
+        label(for="name") Contact the creator
+        input(type="name" name='name' id='name' placeholder='Name' required)
+        input(type="email" name='email' id='e-mail' placeholder='e-mail' required)
+        input(type="text" name='subject' id='subject' placeholder='subject' required)
+        textarea(name="message", cols="30", rows="6" placeholder='Your message...' required)
+        .send
+            button Send mail 

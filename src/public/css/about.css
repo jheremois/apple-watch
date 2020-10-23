@@ -1,0 +1,191 @@
+.app{
+    background-color: white;
+}
+.landing{
+    padding: 50px 120px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fafafa;
+}
+.landing .headline{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landing .headline span{
+    padding-bottom: 40px;
+}
+.landing .headline span p{
+    font-size: 52px;
+    line-height: 1.09365;
+    letter-spacing: -.003em;
+    font-weight: 500;
+    text-align: center;
+}
+span aside{
+    padding-top: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+span aside pre{
+    font-size: 28px;
+    font-weight: 600;
+}
+aside img{
+    width: 27px;
+    padding: 0px 3px 3px 5px;
+    margin: 0px;
+}
+.lig{
+    color: #0a84ff;
+}
+.landing .head_img{
+    width: 50%;
+    padding: 10px 0px;
+}
+.hl2{
+    display: none;
+}
+/*      section         */
+section{
+    background-color: white;
+}
+.section{
+    margin: 50px;
+    padding: 0px 40px;
+    display: flex;
+}
+.rs1{
+    background-color: #000000;
+}
+.section .conten{
+    color: #ffffff;
+    padding: 200px 20px;
+}   
+.conten p{
+    color: rgba(255, 255, 255, 0.658);
+    padding: 20px 0px;
+    font-size: 20pt;
+    line-height: 1.2858;
+    font-weight: 500;
+    letter-spacing: .006em;
+}
+.section img{
+    width: 50%;
+}
+.atit{
+    font-size: 24pt;
+    line-height: 1.2858;
+    font-weight: 500;
+    letter-spacing: .006em;
+}
+.section .conten .atit{
+    font-weight: 500;
+}
+/*      features        */
+.main_features{
+    padding: 50px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.main_features .the_feature{
+    display: grid;
+    width: 48%;
+    background-color: #f5f5f7;
+}
+.main_features .the_feature .heades{
+    color: #161616;
+    padding: 60px 45px;
+    font-size: 21pt;
+    line-height: 1.2858;
+    font-weight: 600;
+    letter-spacing: .006em;
+}
+.main_features .the_feature .heades p{
+    padding-top: 20px;
+    font-size: 20pt;
+    line-height: 1.2858;
+    font-weight: 500;
+    letter-spacing: .006em;
+    color: rgba(0, 0, 0, 0.534);
+}
+.main_features .the_feature .imag{
+    display: flex;
+    align-items: flex-end;
+    justify-content: baseline;
+}
+.main_features .the_feature .imag img{
+   
+    width: 100%;
+}
+/*          end         */
+.end{
+    margin-top: 50px;
+    background-image: url('../images/whyus_bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.end_in{
+    height: 100%;
+    background-color: #000000a8;
+}
+.end_in .conten{
+    color: #ffffff;
+    padding: 140px 90px;
+    width: 60%;
+}
+/*          media           */
+@media screen and (max-width: 768px){
+    .hl2{
+        display: block;
+    }
+    .hl1{
+        display: none;
+    }
+    .landing{
+        display: block;
+        padding: 80px 0px;
+    }
+    .landing .headline{
+        padding: 0px;
+        width: 100%;
+    }
+    .landing .headline span p{
+        font-size: 47px;
+        line-height: 1.14365;
+    }
+    .landing .head_img{
+        padding: 0px 10%;
+        padding-bottom: 80px;
+        width: 80%;
+    }
+    .section{
+        padding: 0px;
+        display: block;
+        margin: 50px 0px;
+    }
+    .section img{
+        transform: translateY(3px);
+        padding: 0px 10%;
+        width: 80%;
+    }
+    .section .conten{
+        padding: 90px 10% 20px 10%;
+        width: 80%;
+    }
+    .end .conten{
+        width: 80%;
+        padding: 140px 10%;
+    }
+    .main_features{
+        padding: 0px 15px;
+        display: block;
+    }
+    .main_features .the_feature{
+        width: 100%;
+        margin: 60px 0px;
+    }
+}
